@@ -35,6 +35,23 @@
     "lint-staged": "^10.4.0",
     "prettier": "^2.1.2"
   },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "plugin:prettier/recommended"
+    ]
+  },
+  "prettier": {
+    "printWidth": 80,
+    "bracketSpacing": true,
+    "trailingComma": "es5",
+    "singleQuote": true
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
   "lint-staged": {
     "*.+(js|jsx)": [
       "eslint --fix",
