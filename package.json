@@ -46,10 +46,5 @@
     "bracketSpacing": true,
     "trailingComma": "es5",
     "singleQuote": true
-  },
-  "husky": {
-    "hooks": {
-      "pre-commit": "lint-staged"
-    }
   }
 }

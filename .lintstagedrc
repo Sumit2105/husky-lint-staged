@@ -1,5 +1,4 @@
 {
-    "lint-staged": {
     "*.+(js|jsx)": [
       "eslint --fix",
       "git add"
@@ -8,5 +7,4 @@
       "prettier --write",
       "git add"
     ]
-  }
 }
